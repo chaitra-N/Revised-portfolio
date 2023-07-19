@@ -66,6 +66,41 @@ const SideNav = () => {
         ""
       )}
 
+      <div className='md:block hidden fixed top-4 right-4 z-[99]  '>
+        <div className='flex flex-row'>
+          <a
+            href='#main'
+            className='right- flex justify-center text-center rounded-lg m-2 p-2 cursor-pointer hover:scale-110 ease-in duration-200 hover:underline underline-offset-4 decoration-black'
+          >
+            Home
+          </a>
+          <a
+            href='#main'
+            className='right- flex justify-center text-center rounded-lg m-2 p-2 cursor-pointer hover:scale-110 ease-in duration-200 hover:underline underline-offset-4 decoration-black'
+          >
+            About
+          </a>
+          <a
+            href='#main'
+            className=' flex justify-center text-center rounded-lg m-2 p-2 cursor-pointer hover:scale-110 ease-in duration-200 hover:underline underline-offset-4 decoration-black'
+          >
+            Projects
+          </a>
+          <a
+            href='#main'
+            className='flex justify-center text-center rounded-lg m-2 p-2 cursor-pointer hover:scale-110 ease-in duration-200 hover:underline underline-offset-4 decoration-black'
+          >
+            Resume
+          </a>
+          <a
+            href='#main'
+            className='flex justify-center text-center rounded-lg m-2 p-2 cursor-pointer hover:scale-110 ease-in duration-200 hover:underline underline-offset-4 decoration-black'
+          >
+            Contact
+          </a>
+        </div>
+      </div>
+
       <div className='md:block hidden fixed top-[70%] z-10'>
         <div className='flex flex-col'>
           <a
@@ -93,7 +128,7 @@ const SideNav = () => {
             <AiOutlineMail size={20} />
           </a>
         </div>
-        <div class='absolute left-1/2 -ml-0.5 w-0.5 h-screen bg-gray-600'></div>
+        <div className='absolute left-1/2 -ml-0.5 w-0.5 h-screen bg-gray-600'></div>
       </div>
     </div>
   );
