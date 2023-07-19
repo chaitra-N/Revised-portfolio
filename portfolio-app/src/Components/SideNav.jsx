@@ -93,6 +93,7 @@ const SideNav = () => {
             <AiOutlineMail size={20} />
           </a>
         </div>
+        <div class='absolute left-1/2 -ml-0.5 w-0.5 h-screen bg-gray-600'></div>
       </div>
     </div>
   );
