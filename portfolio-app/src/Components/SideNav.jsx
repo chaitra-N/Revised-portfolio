@@ -25,38 +25,38 @@ const SideNav = () => {
         className='absolute top-4 right-4 z-[99] md:hidden'
       />
       {nav ? (
-        <div className='fixed w-full h-screen bg-violet-300 flex flex-col justify-center items-center z-20'>
+        <div className='fixed w-full h-screen bg-violet-300 flex flex-col justify-center items-center z-20 md:hidden'>
           <a
-            href='#main'
-            className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'
+            href='#home'
+            className='w-[50%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'
           >
             <AiOutlineHome size={20} />
             <span className='pl-4'>Home</span>
           </a>
           <a
             href='#main'
-            className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'
+            className='w-[50%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'
           >
             <AiOutlineUser size={20} />
             <span className='pl-4'>About</span>
           </a>
           <a
             href='#main'
-            className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'
+            className='w-[50%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'
           >
             <GrProjects size={20} />
             <span className='pl-4'>Projects</span>
           </a>
           <a
             href='#main'
-            className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'
+            className='w-[50%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'
           >
             <AiOutlineFilePdf size={20} />
             <span className='pl-4'>Resume</span>
           </a>
           <a
             href='#main'
-            className='w-[50%] flex justify-center items-center rounded-lg shadow-lg bg-gray-100 shadow-gray-400 m-2 p-2 cursor-pointer hover:scale-110 ease-in duration-200'
+            className='w-[50%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'
           >
             <AiOutlineMail size={20} />
             <span className='pl-4'>Contact</span>
@@ -70,31 +70,31 @@ const SideNav = () => {
         <div className='flex flex-row'>
           <a
             href='#main'
-            className='right- flex justify-center text-center rounded-lg m-2 p-2 cursor-pointer hover:scale-110 ease-in duration-200 hover:underline underline-offset-4 decoration-black'
+            className='right- flex justify-center text-center rounded-lg shadow-lg bg-gray-100 shadow-gray-400 m-2 p-2 cursor-pointer hover:scale-110 ease-in duration-200 hover:underline underline-offset-4 decoration-black'
           >
             Home
           </a>
           <a
             href='#main'
-            className='right- flex justify-center text-center rounded-lg m-2 p-2 cursor-pointer hover:scale-110 ease-in duration-200 hover:underline underline-offset-4 decoration-black'
+            className='right- flex justify-center text-center rounded-lg m-2 p-2 shadow-lg bg-gray-100 shadow-gray-400 cursor-pointer hover:scale-110 ease-in duration-200 hover:underline underline-offset-4 decoration-black'
           >
             About
           </a>
           <a
             href='#main'
-            className=' flex justify-center text-center rounded-lg m-2 p-2 cursor-pointer hover:scale-110 ease-in duration-200 hover:underline underline-offset-4 decoration-black'
+            className=' flex justify-center text-center rounded-lg m-2 p-2 shadow-lg bg-gray-100 shadow-gray-400 cursor-pointer hover:scale-110 ease-in duration-200 hover:underline underline-offset-4 decoration-black'
           >
             Projects
           </a>
           <a
             href='#main'
-            className='flex justify-center text-center rounded-lg m-2 p-2 cursor-pointer hover:scale-110 ease-in duration-200 hover:underline underline-offset-4 decoration-black'
+            className='flex justify-center text-center rounded-lg m-2 p-2 shadow-lg bg-gray-100 shadow-gray-400 cursor-pointer hover:scale-110 ease-in duration-200 hover:underline underline-offset-4 decoration-black'
           >
             Resume
           </a>
           <a
             href='#main'
-            className='flex justify-center text-center rounded-lg m-2 p-2 cursor-pointer hover:scale-110 ease-in duration-200 hover:underline underline-offset-4 decoration-black'
+            className='flex justify-center text-center rounded-lg m-2 p-2 shadow-lg bg-gray-100 shadow-gray-400 cursor-pointer hover:scale-110 ease-in duration-200 hover:underline underline-offset-4 decoration-black'
           >
             Contact
           </a>
@@ -128,7 +128,7 @@ const SideNav = () => {
             <AiOutlineMail size={20} />
           </a>
         </div>
-        <div className='absolute left-1/2 -ml-0.5 w-0.5 h-screen bg-gray-600'></div>
+        <div className='absolute left-1/2 -ml-0.5 w-0.5 h-screen bg-black'></div>
       </div>
     </div>
   );
