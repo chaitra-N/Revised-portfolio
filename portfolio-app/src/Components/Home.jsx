@@ -4,7 +4,7 @@ import { TypeAnimation } from "react-type-animation";
 const Home = () => {
   return (
     <div className='h-screen bg-violet-600' id='home'>
-      <div className='mx-w-[700px] m-auto h-full w-full flex flex-col justify-center xl:items-start items-center'>
+      <div className='mx-w-[700px] m-auto h-full w-full flex flex-col justify-center lg:items-center items-center'>
         <h1 className='sm:text-5xl text-4xl font-bold text-violet-200'>
           Hi! I'm Chaitra
         </h1>
